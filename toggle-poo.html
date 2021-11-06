@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .container {
+            margin-top: 10vh;
+        }
+
+        .bn {
+            text-align: center;
+            vertical-align: middle;
+            background-color: aquamarine;
+        }
+
+        .agrandar {
+            padding: 2em;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <div class="container">
+        <button id="boton" class="bn">
+            ¡Púlsame!
+        </button>
+    </div>
+
+    <div class="container">
+        <form>
+            <label for="nombre">Nombre
+                <input type="text" name="nombre" id="nombre" placeholder="Introduce nombre">
+            </label>
+            <label for="edad">Edad
+                <input type="text" name="edad" id="edad" placeholder="Introduce edad">
+            </label>
+            <button id="enviar" type="submit" class="btn">Enviar</button>
+        </form>
+
+    </div>
+
+    <ul id="personas" >
+    </ul>
+
+    <script src="toggle.js"></script>
+</body>
+
+</html>
