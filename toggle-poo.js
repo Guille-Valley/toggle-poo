@@ -31,6 +31,7 @@ document.getElementById('enviar').addEventListener('click', evt => {
 
     localStorage.setItem('Persona ' + cont++ + ':', 'Nombre: ' + nuevaPersona.getNombre() + '. Edad: ' + nuevaPersona.getEdad());
 
-});
+console.log(nuevaPersona);
 
+});
 
